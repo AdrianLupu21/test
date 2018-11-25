@@ -8,9 +8,9 @@ class NavBar extends Component{
   };
   render(){
     return(
-      <div class = "container">
+      <div>
         <nav id = "nav">
-          {this.state.buttonNames.map( (buttons,i)=>{return(<a href = {this.state.addresses[i]}><button class="btn btn-outline-dark" id="straight">{buttons}</button></a>)})}
+          {this.state.buttonNames.map( (buttons,i)=>{return(<a class="button-nav" id="straight" href = {this.state.addresses[i]}>{buttons}</a>)})}
         </nav>
         <Main />
       </div>
