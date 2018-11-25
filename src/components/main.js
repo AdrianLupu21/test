@@ -8,7 +8,7 @@ const Main = ()=>(
   <Switch>
     <Route exact path = "/" component = {FirstPage}/>
     <Route exact path = "/secondpage" component = {SecondPage}/>
-    <Route exact path = "/thirdpage" component = {ThirdPage}/>    
+    <Route exact path = "/thirdpage" component = {ThirdPage}/>
   </Switch>
 )
 
