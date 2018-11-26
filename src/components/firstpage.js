@@ -1,5 +1,6 @@
 import React ,{Component} from 'react';
 
+
 class FirstPage extends Component{
   render(){
     return(
@@ -23,12 +24,18 @@ class FirstPage extends Component{
               </ul>
             </div>
         </div>
-        <div id = "ynah">
+        <div id = "message">
           <p>"Nam felis nisl, dignissim a pulvinar at, ultricies non nibh. Vestibulum nunc nisi,
            egestas eget mattis vel, rutrum tempor lorem. Morbi vehicula massa nec mi suscipit interdum. Integer aliquam
             elementum nisl, vitae auctor enim sodales ut." -Traian Basescu
           </p>
-          <button class = "join btn btn-primary">Join now</button>
+          <a href ="/joinform"><button class = "join btn btn-primary">Join now</button></a>
+        </div>
+        <div id="social-media">
+          <h5>Follow us on:</h5>
+          <i class="fab fa-facebook icon">Facebook</i>
+          <i class="fab fa-twitter-square icon">Twitter</i>
+          <i class="fab fa-linkedin icon">LinkedIn</i>
         </div>
       </div>
     );
