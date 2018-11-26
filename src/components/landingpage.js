@@ -4,7 +4,7 @@ import Main from './main';
 class NavBar extends Component{
  state = {
     buttonNames : ["De ce Federatia de sport?","Alumni","Competitii","Cluburi partenere"],
-    addresses : ['/','/secondpage','thirdpage']
+    addresses : ['/','/secondpage','thirdpage','fourthpage']
   };
   render(){
     return(
